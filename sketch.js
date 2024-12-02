@@ -72,7 +72,7 @@ function updateParameters() {
 }
 
 function drawKerfPattern() {
-  filename = `20241016-kerf-${type}`;
+  filename = `kerf-bending-pattern-${type}`;
   clear();
   background(255);
   noFill();
