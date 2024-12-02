@@ -8,7 +8,7 @@ A [p5.js](https://p5js.org/)-friendly customizable kerf bending pattern generato
 
 ## Customization
 
-The easiest way to design your own custom pattern is to [open the generator sketch in p5.js Web Editor](https://editor.p5js.org/jackbdu/sketches/73gmSBBoS) and modify the `kerfCustom()` function in `custom.js`.
+The easiest way to design your own custom pattern is to [open the generator sketch in p5.js Web Editor](https://editor.p5js.org/jackbdu/sketches/73gmSBBoS) and modify the `kerfCustom()` function in [`custom.js`](./custom.js).
 
 ```javascript
 function kerfCustom(centerX, centerY, kerfWidth, kerfHeight, direction) {
@@ -21,7 +21,7 @@ This function defines an individual element of the pattern based on five paramet
 
 ## Contribution
 
-Feel free to share your unique design by following the same code structure in `sketch.js` and send a pull request.
+Feel free to share your unique design by following the same code structure in [`sketch.js`](./sketch.js) and creating a pull request.
 
 ## License
 
